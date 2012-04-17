@@ -1,0 +1,7 @@
+# this script will be executed after loading the routing rules in vpnup.sh
+# Example:
+# route add -host 208.67.222.222 gw $VPNGW
+# route add -net 74.125.0.0/16 gw $VPNGW
+
+route add -host 208.113.243.92 gw $VPNGW
+route add -host 74.207.251.133 gw $VPNGW
