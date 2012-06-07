@@ -3,6 +3,15 @@
 # route add -host 208.67.222.222 gw $VPNGW
 # route add -net 74.125.0.0/16 gw $VPNGW
 
+# Bitbucket
+route add -host 207.223.240.182 gw $VPNGW
+route add -host 207.223.240.181 gw $VPNGW
+
+#TryRuby.org
+route add -host 75.101.163.44 gw $VPNGW
+route add -host 75.101.145.87 gw $VPNGW
+route add -host 174.129.212.2 gw $VPNGW
+
 route add -host 208.113.243.92 gw $VPNGW
 route add -host 74.207.251.133 gw $VPNGW
 
@@ -19,8 +28,17 @@ route add -host 96.44.129.234 gw $VPNGW
 route add -host 209.11.240.35 gw $VPNGW
 route add -host 216.69.173.36 gw $VPNGW
 route add -host 209.239.160.72 gw $VPNGW
+route add -host 64.191.203.30 gw $VPNGW
+route add -host 74.117.114.82 gw $VPNGW
 
+#dd-wrt
+route add -host 83.141.4.210 gw $VPNGW
 
+route add -host 50.22.174.50 gw $VPNGW
+
+#Amazon
+route add -host 72.21.211.176 gw $VPNGW
+route add -host 72.21.194.1 gw $VPNGW
 #Caze
 route add -host 64.14.68.99 gw $VPNGW
 
