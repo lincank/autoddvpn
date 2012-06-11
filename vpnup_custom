@@ -15,6 +15,9 @@ route add -host 174.129.212.2 gw $VPNGW
 route add -host 208.113.243.92 gw $VPNGW
 route add -host 74.207.251.133 gw $VPNGW
 
+#Linkedin.com
+route add -host 216.52.242.80 gw $VPNGW
+
 #Other
 route add -net 17.172.0.0/16 gw $VPNGW
 route add -net 60.199.217.0/24 gw $VPNGW
