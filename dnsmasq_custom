@@ -8,6 +8,8 @@ address=/encrypted.google.com/72.14.203.100
 address=/s.nexttv.com.tw/203.69.138.24
 address=/av.vimeo.com/64.211.21.119
 address=/www.binarynights.com/95.131.48.70
+address=/64tianwang.com/67.205.93.146
+
 server=/google.com/8.8.8.8
 server=/appspot.com/8.8.8.8
 server=/facebook.com/8.8.8.8
@@ -21,3 +23,4 @@ server=/book.com.tw/8.8.8.8
 server=/nownews.com/8.8.8.8
 server=/gov.tw/8.8.8.8
 server=/tryruby.org/8.8.8.8
+server=/itunes.apple.com/8.8.8.8

@@ -18,6 +18,14 @@ route add -host 74.207.251.133 gw $VPNGW
 #Linkedin.com
 route add -host 216.52.242.80 gw $VPNGW
 
+#Godaddy
+route add -host 216.69.149.53 gw $VPNGW
+
+# ax.itunes.apple.com
+route add -host 63.80.4.81 gw $VPNGW
+route add -host 63.80.4.74 gw $VPNGW
+
+
 #Other
 route add -net 17.172.0.0/16 gw $VPNGW
 route add -net 60.199.217.0/24 gw $VPNGW
@@ -32,7 +40,17 @@ route add -host 209.11.240.35 gw $VPNGW
 route add -host 216.69.173.36 gw $VPNGW
 route add -host 209.239.160.72 gw $VPNGW
 route add -host 64.191.203.30 gw $VPNGW
-route add -host 74.117.114.82 gw $VPNGW
+route add -host 202.64.69.243 gw $VPNGW
+route add -host 173.245.60.128 gw $VPNGW
+route add -host 199.27.134.47 gw $VPNGW
+route add -host 67.205.93.146 gw $VPNGW
+
+# Gurudigger
+route add -host 50.56.107.44 gw $VPNGW
+
+# iTunes
+#route add -host 63.80.4.74 gw $VPNGW
+#route add -host 63.80.4.81 gw $VPNGW
 
 #dd-wrt
 route add -host 83.141.4.210 gw $VPNGW
