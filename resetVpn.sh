@@ -1,3 +1,7 @@
+# Author: Guimin Lin
+# Date: 07/01/2012
+# Reset openvpn connection in dd-wrt router, for autoddvpn
+
 #!/bin/sh
 
 echo "[`date`]: Killing openvpn ..."

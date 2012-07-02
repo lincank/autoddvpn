@@ -4,7 +4,7 @@
 # This script can reconnect internet in dd-wrt devices
 # reconnect PPPoE every two days by cron job
 # 
-# cron job: 00 5 * * 1-7/2 root /jffs/reconnect.sh
+# cron job: 00 5 * * 1-7/2 root /jffs/openvpn/Reconnect.sh
 
 LOG_FILE=/tmp/reconnect.log
 echo "----------------------------------------------" >> $LOG_FILE
