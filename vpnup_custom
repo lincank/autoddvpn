@@ -18,13 +18,21 @@ route add -host 74.207.251.133 gw $VPNGW
 #Linkedin.com
 route add -host 216.52.242.80 gw $VPNGW
 
+# Huaren
+route add -host 68.234.31.233 gw $VPNGW
+
 #Godaddy
 route add -host 216.69.149.53 gw $VPNGW
+
+# igfw.net
+route add -host 50.23.65.197 gw $VPNGW
 
 # ax.itunes.apple.com
 route add -host 63.80.4.81 gw $VPNGW
 route add -host 63.80.4.74 gw $VPNGW
 
+# ifttt 
+route add -host 174.129.209.0 gw $VPNGW
 
 #Other
 route add -net 17.172.0.0/16 gw $VPNGW
