@@ -9,6 +9,8 @@ address=/s.nexttv.com.tw/203.69.138.24
 address=/av.vimeo.com/64.211.21.119
 address=/www.binarynights.com/95.131.48.70
 address=/64tianwang.com/67.205.93.146
+address=/www.imdb.com/72.21.203.211
+
 
 server=/google.com/8.8.8.8
 server=/appspot.com/8.8.8.8
@@ -25,3 +27,5 @@ server=/gov.tw/8.8.8.8
 server=/tryruby.org/8.8.8.8
 server=/itunes.apple.com/8.8.8.8
 server=/igfw.net/8.8.8.8
+server=/tailrecursive.org/8.8.8.8
+server=/wordpress.com/8.8.8.8

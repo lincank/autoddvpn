@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=SanFrancisco, O=Fort-Funston, OU=changeme, CN=everants/name=Everants/emailAddress=lincank@gmail.com
+        Validity
+            Not Before: Apr 14 09:11:05 2012 GMT
+            Not After : Apr 12 09:11:05 2022 GMT
+        Subject: C=US, ST=CA, L=SanFrancisco, O=Fort-Funston, OU=changeme, CN=vpnclient/name=Everants/emailAddress=lincank@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:ca:47:14:b4:5e:72:29:01:d0:7a:47:2e:05:9b:
+                    eb:7c:7d:8f:04:98:fa:c4:b0:07:26:d8:55:4b:46:
+                    7d:af:39:ba:90:c0:f8:76:90:0b:66:3e:59:04:25:
+                    cb:1a:f5:e7:1f:a9:7f:13:6e:f1:06:0a:ec:de:f1:
+                    d8:cf:e9:fd:a5:90:5b:c0:d8:b6:13:54:45:19:81:
+                    a6:04:a8:75:ac:fd:6b:46:1b:c5:ff:5e:8b:11:bd:
+                    fe:90:d0:f3:e0:5a:e4:4d:92:5a:0f:54:d2:8c:d5:
+                    30:0a:3f:16:8c:7e:7e:46:cf:d3:54:cd:5f:4c:95:
+                    86:38:72:29:34:df:8d:c4:1b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                CD:15:A7:6D:6E:E5:BF:15:43:CE:3F:4B:74:C3:20:8A:AB:86:DF:3C
+            X509v3 Authority Key Identifier: 
+                keyid:1A:D2:2A:38:B0:2F:2C:3D:D0:D5:3B:0E:54:CE:EF:E1:30:80:E6:BE
+                DirName:/C=US/ST=CA/L=SanFrancisco/O=Fort-Funston/OU=changeme/CN=everants/name=Everants/emailAddress=lincank@gmail.com
+                serial:FC:C8:34:C0:39:95:F9:63
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        7b:65:e3:60:ff:c2:67:3e:5d:cc:27:04:a2:e5:28:d5:2a:f4:
+        ab:ae:a3:04:bc:0d:6d:ab:99:3a:a7:87:b2:32:09:7b:63:c1:
+        cb:df:5b:2e:f7:86:15:4c:f0:a2:85:a0:65:9c:c5:e6:10:c3:
+        a1:3a:ab:f3:79:5a:46:c0:a8:ef:6f:96:b5:5d:c3:7d:97:25:
+        ec:17:8e:38:e0:97:d0:d4:29:3f:90:ef:76:77:9f:5b:31:a0:
+        07:ba:8e:fb:28:23:95:2a:12:22:e4:c7:1a:e9:2f:e6:11:b0:
+        99:c5:6c:60:1a:73:39:14:e1:18:1e:2c:90:2c:24:58:1b:67:
+        d3:da
+-----BEGIN CERTIFICATE-----
+MIIEGzCCA4SgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBozELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xFTATBgNVBAoTDEZv
+cnQtRnVuc3RvbjERMA8GA1UECxMIY2hhbmdlbWUxETAPBgNVBAMTCGV2ZXJhbnRz
+MREwDwYDVQQpEwhFdmVyYW50czEgMB4GCSqGSIb3DQEJARYRbGluY2Fua0BnbWFp
+bC5jb20wHhcNMTIwNDE0MDkxMTA1WhcNMjIwNDEyMDkxMTA1WjCBpDELMAkGA1UE
+BhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xFTATBgNV
+BAoTDEZvcnQtRnVuc3RvbjERMA8GA1UECxMIY2hhbmdlbWUxEjAQBgNVBAMTCXZw
+bmNsaWVudDERMA8GA1UEKRMIRXZlcmFudHMxIDAeBgkqhkiG9w0BCQEWEWxpbmNh
+bmtAZ21haWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKRxS0XnIp
+AdB6Ry4Fm+t8fY8EmPrEsAcm2FVLRn2vObqQwPh2kAtmPlkEJcsa9ecfqX8TbvEG
+Cuze8djP6f2lkFvA2LYTVEUZgaYEqHWs/WtGG8X/XosRvf6Q0PPgWuRNkloPVNKM
+1TAKPxaMfn5Gz9NUzV9MlYY4cik0343EGwIDAQABo4IBWjCCAVYwCQYDVR0TBAIw
+ADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRpZmljYXRl
+MB0GA1UdDgQWBBTNFadtbuW/FUPOP0t0wyCKq4bfPDCB2AYDVR0jBIHQMIHNgBQa
+0io4sC8sPdDVOw5Uzu/hMIDmvqGBqaSBpjCBozELMAkGA1UEBhMCVVMxCzAJBgNV
+BAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xFTATBgNVBAoTDEZvcnQtRnVu
+c3RvbjERMA8GA1UECxMIY2hhbmdlbWUxETAPBgNVBAMTCGV2ZXJhbnRzMREwDwYD
+VQQpEwhFdmVyYW50czEgMB4GCSqGSIb3DQEJARYRbGluY2Fua0BnbWFpbC5jb22C
+CQD8yDTAOZX5YzATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJ
+KoZIhvcNAQEFBQADgYEAe2XjYP/CZz5dzCcEouUo1Sr0q66jBLwNbauZOqeHsjIJ
+e2PBy99bLveGFUzwooWgZZzF5hDDoTqr83laRsCo72+WtV3DfZcl7BeOOOCX0NQp
+P5DvdnefWzGgB7qO+ygjlSoSIuTHGukv5hGwmcVsYBpzORThGB4skCwkWBtn09o=
+-----END CERTIFICATE-----

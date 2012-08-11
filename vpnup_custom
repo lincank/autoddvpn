@@ -14,12 +14,41 @@ route add -host 174.129.212.2 gw $VPNGW
 
 route add -host 208.113.243.92 gw $VPNGW
 route add -host 74.207.251.133 gw $VPNGW
+route add -host 174.127.195.163 gw $VPNGW
+
+route add -host 106.187.49.142 gw $VPNGW
+
+# Google
+route add -host 209.85.143.99 gw $VPNGW
+route add -host 209.85.143.104 gw $VPNGW
+
+# sourceforge
+route add -host 216.34.181.59 gw $VPNGW
+route add -host 216.34.181.129 gw $VPNGW
+route add -host 70.38.0.134 gw $VPNGW
+
+# s2 cdn
+route add -host 23.2.97.244 gw $VPNGW
+
+# nytimes
+route add -host 61.244.110.205 gw $VPNGW
+
+# iMdb
+route add -host 72.21.203.211 gw $VPNGW
 
 #Linkedin.com
 route add -host 216.52.242.80 gw $VPNGW
 
 # Huaren
 route add -host 68.234.31.233 gw $VPNGW
+
+# wordpress.com
+route add -host 76.74.254.126  gw $VPNGW
+route add -host 74.200.247.188 gw $VPNGW
+route add -host 72.233.104.124 gw $VPNGW
+route add -host 74.200.244.58 gw $VPNGW
+route add -host 74.200.243.250 gw $VPNGW
+route add -host 74.200.247.186 gw $VPNGW
 
 #Godaddy
 route add -host 216.69.149.53 gw $VPNGW
@@ -33,6 +62,9 @@ route add -host 63.80.4.74 gw $VPNGW
 
 # ifttt 
 route add -host 174.129.209.0 gw $VPNGW
+
+# good
+route add -host 204.45.159.149 gw $VPNGW
 
 #Other
 route add -net 17.172.0.0/16 gw $VPNGW
