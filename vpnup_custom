@@ -3,6 +3,8 @@
 # route add -host 208.67.222.222 gw $VPNGW
 # route add -net 74.125.0.0/16 gw $VPNGW
 
+
+
 # Bitbucket
 route add -host 207.223.240.182 gw $VPNGW
 route add -host 207.223.240.181 gw $VPNGW
@@ -17,6 +19,12 @@ route add -host 74.207.251.133 gw $VPNGW
 route add -host 174.127.195.163 gw $VPNGW
 
 route add -host 106.187.49.142 gw $VPNGW
+
+# fbcnd.net
+route add -net 63.80.138.0/24 gw $VPNGW
+
+# dribbble.com
+route add -host 205.186.145.142 gw $VPNGW
 
 # Google
 route add -host 209.85.143.99 gw $VPNGW
