@@ -59,7 +59,7 @@ route add -host 74.200.243.250 gw $VPNGW
 route add -host 74.200.247.186 gw $VPNGW
 
 #Godaddy
-route add -host 216.69.149.53 gw $VPNGW
+route add -net 216.69.149.0/24 gw $VPNGW
 
 # igfw.net
 route add -host 50.23.65.197 gw $VPNGW
@@ -67,6 +67,9 @@ route add -host 50.23.65.197 gw $VPNGW
 # ax.itunes.apple.com
 route add -host 63.80.4.81 gw $VPNGW
 route add -host 63.80.4.74 gw $VPNGW
+
+# godaddy.com
+route add -host 97.74.104.201 gw $VPNGW
 
 # ifttt 
 route add -host 174.129.209.0 gw $VPNGW
@@ -150,3 +153,62 @@ route add -net 216.98.48.0/24 gw $VPNGW
 #WeiPN
 #route add -host 173.255.250.231 gw $VPNGW
 
+# molihua.com
+route add -host 154.35.131.132 gw $VPNGW
+
+# geo
+route add -net 118.151.231.0/24 gw $VPNGW
+
+#facebook
+route add -net 69.171.0.0/16 gw $VPNGW
+
+#twitter
+route add -host 199.59.150.7 gw $VPNGW
+route add -host 173.201.216.41 gw $VPNGW
+
+route add -host 199.27.134.40 gw $VPNGW
+route add -host 173.245.60.114 gw $VPNGW
+
+# canchinese.com
+route add -host 173.201.216.41 gw $VPNGW
+# www.secretchina.com
+route add -host 174.133.217.98 gw $VPNGW
+# www.epochtimes.com
+route add -host 184.169.172.216 gw $VPNGW
+route add -host 72.52.81.84 gw $VPNGW
+# m1.aboluowang.com
+route add -host 208.113.228.86 gw $VPNGW
+# www.chinese.rfi.fr
+route add -host 65.197.244.51 gw $VPNGW
+route add -host 65.197.244.75 gw $VPNGW
+# www.boxun.com
+route add -host 154.35.164.8 gw $VPNGW
+# orientaldaily.on.cc
+route add -host 202.125.90.12 gw $VPNGW
+route add -host 118.215.177.244 gw $VPNGW
+route add -host 23.14.33.244 gw $VPNGW
+# static.linkbucks.com
+route add -host 93.184.216.169 gw $VPNGW
+# linkbucks.com
+route add -host 206.125.41.20 gw $VPNGW
+# vimeo.com
+route add -host 74.113.233.128 gw $VPNGW
+# www.peacehall.com
+route add -host 154.35.164.8 gw $VPNGW
+# www.epochtimes.com
+route add -host 184.169.172.216 gw $VPNGW
+route add -host 72.52.81.84 gw $VPNGW
+# disqus.com
+route add -host 74.86.190.242 gw $VPNGW
+route add -host 174.37.29.148 gw $VPNGW
+route add -host 173.192.61.226 gw $VPNGW
+# static.linkbucks.com
+route add -host 93.184.216.169 gw $VPNGW
+route add -host 68.232.44.169 gw $VPNGW
+# www.dropbox.com
+route add -host 199.47.217.171 gw $VPNGW
+route add -host 199.47.216.170 gw $VPNGW
+route add -host 199.47.216.171 gw $VPNGW
+route add -host 199.47.217.170 gw $VPNGW
+# www.sugarsync.com
+route add -host 74.201.86.21 gw $VPNGW

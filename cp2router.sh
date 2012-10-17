@@ -1,2 +1,12 @@
 #!/bin/sh
-scp -r -o UserKnownHostsFile=/dev/null ${2}  root@192.168.${1}.1:/jffs/openvpn/
+
+# router ip
+GW=`netstat -rn | grep UG |tr -s ' '|cut -d ' ' -f2`
+
+scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${1} root@${GW}:/jffs/openvpn/
+
+
+ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@${GW} "/jffs/openvpn/resetVpn.sh"
+
+
+
