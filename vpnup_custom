@@ -212,3 +212,5 @@ route add -host 199.47.216.171 gw $VPNGW
 route add -host 199.47.217.170 gw $VPNGW
 # www.sugarsync.com
 route add -host 74.201.86.21 gw $VPNGW
+# cloudfront.net
+route add -net 108.59.10.0/24 gw $VPNGW
