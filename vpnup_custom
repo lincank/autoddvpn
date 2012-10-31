@@ -212,3 +212,10 @@ route add -host 199.47.216.171 gw $VPNGW
 route add -host 199.47.217.170 gw $VPNGW
 # www.sugarsync.com
 route add -host 74.201.86.21 gw $VPNGW
+# www.nytimes.com
+route add -host 170.149.168.130 gw $VPNGW
+# graphics8.nytimes.com
+route add -host 65.197.244.179 gw $VPNGW
+route add -host 65.197.244.147 gw $VPNGW
+route add -host 65.197.244.201 gw $VPNGW
+
