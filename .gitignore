@@ -1,2 +1,5 @@
 *.crt
 *.key
+keys/
+router_config/
+macvpn/
