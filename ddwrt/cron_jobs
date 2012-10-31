@@ -1,2 +1,2 @@
-00 5 * * 1-7/2 root /jffs/openvpn/reconnect.sh
+00 5 * * 1-7/2 root /jffs/openvpn/reconnect.sh 2>&1 >> /tmp/reconnect.log
 00 5 * * 0-6/2 root /jffs/openvpn/resetVpn.sh 2>&1 >> /tmp/vpn_reset.log

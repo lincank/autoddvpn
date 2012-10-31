@@ -4,7 +4,7 @@
 # Reset openvpn connection in dd-wrt router, for autoddvpn
 # 
 # cron:
-# 00 5 * * 0-6/2 root /jffs/openvpn/resetVpn.sh 2>&1 >> /tmp/vpn_reset.log
+# 00 5 * * 0-6/2 root /jffs/openvpn/reset_vpn.sh 2>&1 >> /tmp/vpn_reset.log
 
 echo "*********** VPN reset script starts ***********"
 echo "[`date`]: Killing openvpn ..."

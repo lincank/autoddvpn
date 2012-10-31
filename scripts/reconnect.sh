@@ -34,11 +34,4 @@ done
 echo "[`date`]: Time to start openvpn ..." 
 
 # call reset vpn script
-reset_vpn.sh
-
-OPENVPN_NUM=`ps | grep openvpn | wc -l`
-if [ ${OPENVPN_NUM} -ne 1 ]; then
-	killall openvpn
-fi
-openvpn --config /jffs/openvpn/openvpn.conf --daemon 
-echo "[`date`]: Openvpn started! Reconnect succeed! End script" 
+/jffs/openvpn/reset_vpn.sh
