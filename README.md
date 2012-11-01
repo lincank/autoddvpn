@@ -57,7 +57,7 @@ autoddvpn的文档里说开启dnsmasq后，静态dns不填，这样使用你本�
 Flash越大，选择的空间也大，但相应的价格也高，具体就看需求了。
 
 ### 可利用空间
-有时候ddwrt刷进去了，OpenVPN及JFFS啥的也都支持，但页面上显可用空间为**0 kb**！这时，如果你刷的是Mega，可以试一些功能删减的版本，无大碍。实在不想换，有以下方案：
+有时候ddwrt刷进去了，OpenVPN及JFFS啥的也都支持，但页面上显可用空间为**0kb**！这时，如果你刷的是Mega，可以试一些功能删减的版本，无大碍。实在不想换，有以下方案：
 
 * 如果路由支持USB，可以将这些脚本放在外接的USB设备上
 * 如果路由不支持USB，可以自己将原有固件做修改，删减一些你没用到的功能，释放空间，可参见[ddwrt官网](http://www.dd-wrt.com/wiki/index.php/Development#Modifying_the_firmware_.28manual_and.2For_ipkg_install.sh.29)
