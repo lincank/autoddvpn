@@ -7,7 +7,7 @@
 # router ip
 GW=`netstat -rn | grep UG |tr -s ' '|cut -d ' ' -f2`
 
-scp -r -o StrictHostKeyChecking=no  ${@} root@${GW}:/jffs/openvpn/
+scp -r -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ${@} root@${GW}:/jffs/openvpn/
 
 
 

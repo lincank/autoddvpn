@@ -225,3 +225,9 @@ route add -host 65.197.244.201 gw $VPNGW
 # www.slideshare.net
 # www.slideshare.net
 route add -host 174.36.28.11 gw $VPNGW
+route add -host 72.233.69.6 gw $VPNGW
+route add -host 74.200.244.59 gw $VPNGW
+route add -host 76.74.254.123 gw $VPNGW
+route add -host 76.74.254.120 gw $VPNGW
+route add -host 72.233.2.58 gw $VPNGW
+route add -host 74.200.243.251 gw $VPNGW
