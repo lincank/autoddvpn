@@ -1,0 +1,8 @@
+mkdir /jffs/opt
+mount -o bind /jffs/opt /opt
+
+tar czf /tmp/opt-backup.tar.gz /opt
+
+cd /
+rm -rf opt/*
+tar xvzf /tmp/opt-backup.tar.gz
