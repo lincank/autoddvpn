@@ -7,9 +7,11 @@
 # 00 5 * * 0-6/2 root /jffs/openvpn/reset_vpn.sh 2>&1 >> /tmp/vpn_reset.log
 
 echo "*********** VPN reset script starts ***********"
-echo "[`date`]: Killing openvpn ..."
-OPENVPN_NUM=`ps | grep openvpn | wc -l`
-if [ ${OPENVPN_NUM} -ne 1 ]; then
+#OPENVPN_NUM=`ps | grep openvpn | wc -l`
+
+# check if openvpn daemon exists
+if [ -n `pidof openvpn` ]; then
+	echo "[`date`]: Killing existing openvpn instance..."
 	killall openvpn
 fi
 sleep 1
