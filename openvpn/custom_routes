@@ -1,0 +1,5 @@
+route add -host 154.35.131.132 gw $VPNGW 
+route add -host 216.239.32.21 gw $VPNGW 
+route add -host 216.239.34.21 gw $VPNGW 
+route add -host 216.239.36.21 gw $VPNGW 
+route add -host 216.239.38.21 gw $VPNGW 

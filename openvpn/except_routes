@@ -1,0 +1,1 @@
+route add -host 173.194.72.125 gw $OLDGW 

@@ -1,0 +1,101 @@
+# Google DNS and OpenDNS
+route add -host 8.8.8.8 gw $VPNGW
+route add -host 8.8.4.4 gw $VPNGW
+route add -host 208.67.222.222 gw $VPNGW
+# www.dropbox.com
+#route add -host 174.36.30.70 gw $VPNGW
+route add -net 174.36.30.0/24 gw $VPNGW
+# dl-web.dropbox.com
+route add -net 184.73..0.0/16 gw $VPNGW
+route add -net 174.129.20/24 gw $VPNGW
+route add -net 75.101.159.0/24 gw $VPNGW
+route add -net 75.101.140.0/24 gw $VPNGW
+# wiki.dropbox.com
+route add -host 174.36.51.41 gw $VPNGW
+# login.facebook.com
+#route add -net 66.220.147.0/24 gw $VPNGW
+#route add -net 66.220.146.0/24 gw $VPNGW
+# for Google
+route add -net 72.14.192.0/18 gw $VPNGW
+route add -net 74.125.0.0/16 gw $VPNGW
+# static.cache.l.google.com in Taiwan
+route add -net 60.199.175.0/24 gw $VPNGW
+# webcache.googleusercontent.com
+route add -host 72.14.203.132 gw $VPNGW
+route add -host 78.16.49.15 gw $VPNGW
+# for all facebook
+route add -net 66.220.0.0/16 gw $VPNGW
+route add -net 69.63.0.0/16 gw $VPNGW
+# fbcdn
+route add -net 96.17.8.0/24 gw $VPNGW
+# imgN.imageshack.us
+route add -net 208.75.252.0/24 gw $VPNGW
+route add -net 208.94.3.0/24 gw $VPNGW                                                            
+route add -net 38.99.77.0/24 gw $VPNGW  
+route add -net 38.99.76.0/24 gw $VPNGW  
+# static.plurk.com
+route add -host 74.120.123.19 gw $VPNGW
+# statics.plurk.com
+route add -net 216.137.53.0/24 gw $VPNGW
+route add -net 216.137.55.0/24 gw $VPNGW
+#tumblr.com
+route add -host 174.120.238.130 gw $VPNGW
+# tw.nextmedia.com
+route add -host 210.242.234.140 gw $VPNGW
+# {www|api}.twitter.com
+route add -net 168.143.161.0/24 gw $VPNGW
+route add -net 168.143.162.0/24 gw $VPNGW
+route add -net 168.143.171.0/24 gw $VPNGW
+route add -net 128.242.240.0/24 gw $VPNGW
+route add -net 128.242.245.0/24 gw $VPNGW
+route add -net 128.242.250.0/24 gw $VPNGW
+# tw.news.yahoo.com
+route add -net 203.84.204.0/24 gw $VPNGW
+# pixnet.net
+route add -net 103.23.108.0/24 gw $VPNGW
+# tw.rd.yahoo.com
+route add -net 203.84.203.0/24 gw $VPNGW
+# tw.blog.yahoo
+route add -net 203.84.202.0/24 gw $VPNGW
+# for all TW Yahoo
+route add -net 116.214.0.0/16 gw $VPNGW
+# yam.com
+route add -net 60.199.252.0/24 gw $VPNGW
+# c.youtube.com
+#route add -net 74.125.164.0/24 gw $VPNGW
+# ytimg.com
+#route add -net 74.125.6.0/24 gw $VPNGW
+#route add -net 74.125.15.0/24 gw $VPNGW
+#route add -net 74.125.19.0/24 gw $VPNGW
+# for all youtube
+route add -net 66.102.0.0/20 gw $VPNGW
+route add -net 72.14.213.0/24 gw $VPNGW
+# for vimeo
+# av.vimeo.com
+route add -net 117.104.138.0/24 gw $VPNGW
+route add -net 24.143.203.0/24 gw $VPNGW
+route add -net 198.173.160.0/24 gw $VPNGW
+route add -net 198.173.161.0/24 gw $VPNGW
+# assets.vimeo.com
+route add -net 124.40.51.0/24 gw $VPNGW
+route add -net 198.87.176.0/24 gw $VPNGW
+route add -net 96.17.8.0/24 gw $VPNGW
+route add -net 204.2.171.0/24 gw $VPNGW
+route add -net 208.46.163.0/24 gw $VPNGW
+# *.vimeo.com
+route add -net 66.235.126.0/24 gw $VPNGW
+#route add -net 74.125.0.0/16 gw $VPNGW
+route add -net 173.194.0.0/16 gw $VPNGW
+route add -net 208.117.224.0/19 gw $VPNGW
+route add -net 64.233.160.0/19 gw $VPNGW
+# embed.wretch.cc
+route add -net 203.188.204.0/24 gw $VPNGW
+# pic.wretch.cc
+route add -host 116.214.13.248 gw $VPNGW
+route add -host 119.160.252.14 gw $VPNGW
+# for all xuite
+route add -net 210.242.17.0/24 gw $VPNGW
+route add -net 210.242.18.0/24 gw $VPNGW
+# www.books.com.tw
+route add -net 61.31.206.0/24 gw $VPNGW
+route add -net 58.86.40.0/24 gw $VPNGW
