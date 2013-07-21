@@ -26,6 +26,15 @@
 ## autoddvpn配置
 有关如何使用[autoddvpn](https://code.google.com/p/autoddvpn/)，它里面的文档说得很详细，不再赘述。这里的只是让你更好地使用它。
 
+### 模块化的`vpnup.sh`
+原来的autoddvpn，当这些域名的ip有变时，要重新生成`vpnup.sh`文件。我把它改进了一下，让`vpnup.sh`不变，而那些经常要变的路由表存在`*_routes`文件里，每次只要更新这些文件。
+
+使用时，要`openvpn`目录下的`vpnup.sh`代替上面提及的那个工程里的`vpnup.sh`。但注意要同时把`basic_routes`，`gfw_routes`，`custom_routes`和`except_routes`也一起放在路由上，并把`vpnup.sh`文件最上面定义的`PWD`换成你相应的目录，默认是`/jffs/openvpn`。
+
+至于如何更新这4个文件，可以查看[生成routes](https://github.com/lincank/aufow#%E7%94%9F%E6%88%90routes)
+
+
+
 ## 使用心得
 
 ### DNS
